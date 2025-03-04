@@ -53,8 +53,17 @@
     padding: 10px 10px;
 
 }
-
-
+.boo{
+    transition: 0.5s;
+    cursor: pointer;
+    background: linear-gradient(10deg,#000000 , #240608);
+    border-radius: 25px;
+}
+.boo:hover{
+    scale: 1.02;
+    border-radius: 35px;
+    background: linear-gradient(0deg,#000000 , #240608);
+}
 
 
 

@@ -1,0 +1,139 @@
+@import url('https://fonts.cdnfonts.com/css/interceptor');
+/* font-family: 'Interceptor', sans-serif;
+font-family: 'Interceptor Condensed', sans-serif;
+font-family: 'Interceptor Expanded', sans-serif;
+font-family: 'Interceptor Pro', sans-serif;
+font-family: 'Interceptor Rotalic', sans-serif;
+font-family: 'Interceptor Shadow', sans-serif;
+font-family: 'Interceptor Condensed Italic', sans-serif;
+font-family: 'Interceptor Expanded Italic', sans-serif;
+font-family: 'Interceptor Italic', sans-serif;
+font-family: 'Interceptor Pro Italic', sans-serif;
+font-family: 'Interceptor Shadow Italic', sans-serif;
+font-family: 'Interceptor Bold Expanded', sans-serif;
+font-family: 'Interceptor Bold', sans-serif;
+font-family: 'Interceptor Bold ExpItalic', sans-serif;
+font-family: 'Interceptor Bold Italic', sans-serif; */
+
+
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  margin: 10px;
+}
+
+.logo-left {
+  position: fixed;
+  top: 30%;
+  left: -150px;
+  opacity: 8;
+  z-index: -2;
+  color: red;
+  box-shadow: 100px 100px 100px green;
+  font-size: 100px;
+}
+
+.logo-right {
+  position: fixed;
+  top: 0%;
+  right: -100px;
+  opacity: 8;
+  color: red;
+  box-shadow: 100px 100px 100px red;
+  font-size: 100px;
+
+  transform: rotateY(180deg);
+  z-index: -2;
+}
+
+.logo-right1 {
+  position: fixed;
+  top: 60%;
+  right: -100px;
+  opacity: 8;
+  color: red;
+  box-shadow: 100px 100px 100px red;
+  font-size: 100px;
+
+  transform: rotateY(180deg);
+  z-index: -2;
+}
+
+.logo-bgL {
+  position: fixed;
+  top: 40%;
+  left: -30px;
+  opacity: 0.8;
+  transform: rotate(90deg);
+  z-index: -2;
+}
+
+.logo-bgR {
+  position: fixed;
+  top: 6%;
+  right: -30px;
+  opacity: 0.8;
+  transform: rotate(-90deg);
+  z-index: -2;
+  font-size: 100px;
+}
+
+.logo-bgR1 {
+  position: fixed;
+  top: 67%;
+  right: -30px;
+  opacity: 0.8;
+  transform: rotate(-90deg);
+  z-index: -2;
+  font-size: 100px;
+}
+
+.logo-bg {
+  position: fixed;
+  top: 25%;
+  right: 70%;
+  left: 37%;
+  bottom: 50%;
+  opacity: 0.8;
+  z-index: -2;
+}
+
+@media (max-width: 990px) {
+  .logo-bg {
+    visibility: hidden;
+
+  }
+
+
+}
+
+.nave {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(50px);
+  box-shadow: 2px 2px 10px black;
+  border-radius: 10px;
+}
+
+.nave .textt {
+  justify-items: left;
+  align-items: start;
+  align-content: start;
+
+}
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+background: #000;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(0deg, #000000, #BE1E2D);
+  border-radius: 5px;
+  transition: 2s ease-in-out;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(45deg, #000000, #BE1E2D);
+}

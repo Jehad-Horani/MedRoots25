@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/index.css">
+  <link href="https://fonts.cdnfonts.com/css/interceptor" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedRoots 2025</title>
+  <link rel="website icon" href="pics/logo.webp">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href="https://fonts.cdnfonts.com/css/speed-phreak" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/speed-phreak');
+
+    body {
+      font-family: 'Franklin Gothic';
+      background-color: #000000;
+    }
+
+    .nave {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      backdrop-filter: blur(50px);
+      box-shadow: 2px 2px 10px black;
+      border-radius: 10px;
+    }
+
+    .nave .textt {
+      justify-items: left;
+      align-items: start;
+      align-content: start;
+
+    }
+
+    .ezy__faq4-btn-collapse {
+      border: 3px solid;
+      border-top-color: #196B40;
+      border-left-color: #196B40;
+      border-right-color: #BE1E2D;
+      border-bottom-color: #BE1E2D;
+      backdrop-filter: blur(100px);
+      border-radius: 25px;
+      padding: 20px 0px;
+      margin: 20px 0px;
+      box-shadow: 2px 2px 10px black;
+      text-shadow: 2px 2px 10px black;
+      font-size: large;
+
+    }
+
+    .ezy__faq4-btn-collapse:hover {
+      border: 3px solid;
+      border-top-color: #BE1E2D;
+      border-left-color: #BE1E2D;
+      border-right-color: #196B40;
+      border-bottom-color: #196B40;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <script>
+    var countdown = new Date("Jul 6, 2025 00:00:00").getTime();
+    var x = setInterval(function () {
+      var now = new Date().getTime();
+      var distance = countdown - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById('days').innerHTML = days
+      document.getElementById('hours').innerHTML = hours
+      document.getElementById('minutes').innerHTML = minutes
+      document.getElementById('seconds').innerHTML = seconds
+
+
+    }, 1000);
+
+  </script>
+
+
+  <!-- Navigation -->
+  <nav class="navbar nave navbar-expand-lg navbar-dark background-color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style="font-weight: bolder; font-family:'Franklin';"><img
+          src="pics/logo-w.webp" alt="logo-w1" width="100%" height="70px"></a>
+
+         
+      <button class="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="border-radius: 30px;" class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse textt navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-align justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://sight.ieee.org/about-ieee-sight/"  target="_blank">IEEE SIGHT</a></li>
+          <li class="nav-item"><a class="nav-link" href="Speakers.html">Agenda</a></li>
+          <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sponsers">sponsorss</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Home Page -->
+
+  <header>
+
+    <section id="logos" class="hero">
+      <div class="section2">
+        <div class="set">
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+        </div>
+        <div class="set set2">
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+        </div>
+        <div class="set set3">
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+        </div>
+        <div class="set set4">
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+        </div>
+        <div class="set set5">
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="50" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="30" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="40" loading="lazy"></div>
+          <div><img src="pics/leaf1_11zon.webp" width="20" loading="lazy"></div>
+        </div>
+        <div class="container-fluid">
+
+          <div class="row text-center">
+
+            <div class="col-lg-4 medr">
+              <h1 class="Medroots">medroots</h1>
+            </div>
+            <div class="col-lg-4" style="text-align: center;">
+
+              <img src="pics/Icon logo_11zon.webp" alt="tree" class="tree-img" width="320px" height="330">
+
+            </div>
+            <div class="col-lg-4">
+              <h1 class="summit">summit 25</h1>
+            </div>
+            <h1 class="mopail">
+              medroots <br> 2025</h1>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+      <br><br><br>
+      <section>
+        <div class="container-fluid justify-content-center">
+          <h1 style="color: #fff;">Conference Day</h1>
+          <br>
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-3 blockcc">
+              <div class="block2">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="30" height="30" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                    <path
+                      d="M 64.654 14.951 H 25.345 c -1.657 0 -3 -1.343 -3 -3 s 1.343 -3 3 -3 h 39.309 c 1.657 0 3 1.343 3 3 S 66.312 14.951 64.654 14.951 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 87 31.837 H 3 c -1.657 0 -3 -1.343 -3 -3 v -8.87 C 0 13.893 4.942 8.951 11.016 8.951 h 6.398 c 1.657 0 3 1.343 3 3 s -1.343 3 -3 3 h -6.398 C 8.25 14.951 6 17.201 6 19.967 v 5.87 h 78 v -5.87 c 0 -2.766 -2.25 -5.017 -5.017 -5.017 h -6.397 c -1.657 0 -3 -1.343 -3 -3 s 1.343 -3 3 -3 h 6.397 C 85.058 8.951 90 13.893 90 19.967 v 8.87 C 90 30.494 88.657 31.837 87 31.837 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 78.983 89.123 H 11.016 C 4.942 89.123 0 84.181 0 78.106 V 28.837 c 0 -1.657 1.343 -3 3 -3 h 84 c 1.657 0 3 1.343 3 3 v 49.269 C 90 84.181 85.058 89.123 78.983 89.123 z M 6 31.837 v 46.269 c 0 2.767 2.25 5.017 5.016 5.017 h 67.967 c 2.767 0 5.017 -2.25 5.017 -5.017 V 31.837 H 6 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 23.761 51.483 h -4.762 c -1.442 0 -2.612 -1.169 -2.612 -2.612 v -4.762 c 0 -1.442 1.169 -2.612 2.612 -2.612 h 4.762 c 1.442 0 2.612 1.169 2.612 2.612 v 4.762 C 26.372 50.313 25.203 51.483 23.761 51.483 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 47.381 51.483 h -4.762 c -1.442 0 -2.612 -1.169 -2.612 -2.612 v -4.762 c 0 -1.442 1.169 -2.612 2.612 -2.612 h 4.762 c 1.442 0 2.612 1.169 2.612 2.612 v 4.762 C 49.993 50.313 48.824 51.483 47.381 51.483 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 71.001 51.483 h -4.762 c -1.442 0 -2.612 -1.169 -2.612 -2.612 v -4.762 c 0 -1.442 1.169 -2.612 2.612 -2.612 h 4.762 c 1.442 0 2.612 1.169 2.612 2.612 v 4.762 C 73.613 50.313 72.444 51.483 71.001 51.483 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 23.761 72.022 h -4.762 c -1.442 0 -2.612 -1.169 -2.612 -2.612 v -4.762 c 0 -1.442 1.169 -2.612 2.612 -2.612 h 4.762 c 1.442 0 2.612 1.169 2.612 2.612 v 4.762 C 26.372 70.853 25.203 72.022 23.761 72.022 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 47.381 72.022 h -4.762 c -1.442 0 -2.612 -1.169 -2.612 -2.612 v -4.762 c 0 -1.442 1.169 -2.612 2.612 -2.612 h 4.762 c 1.442 0 2.612 1.169 2.612 2.612 v 4.762 C 49.993 70.853 48.824 72.022 47.381 72.022 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 71.001 72.022 h -4.762 c -1.442 0 -2.612 -1.169 -2.612 -2.612 v -4.762 c 0 -1.442 1.169 -2.612 2.612 -2.612 h 4.762 c 1.442 0 2.612 1.169 2.612 2.612 v 4.762 C 73.613 70.853 72.444 72.022 71.001 72.022 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 22.734 20.025 h -2.708 c -1.442 0 -2.612 -1.169 -2.612 -2.612 V 6.489 c 0 -1.442 1.169 -2.612 2.612 -2.612 h 2.708 c 1.442 0 2.612 1.169 2.612 2.612 v 10.924 C 25.345 18.855 24.176 20.025 22.734 20.025 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 69.975 20.025 h -2.708 c -1.442 0 -2.612 -1.169 -2.612 -2.612 V 6.489 c 0 -1.442 1.169 -2.612 2.612 -2.612 h 2.708 c 1.442 0 2.612 1.169 2.612 2.612 v 10.924 C 72.586 18.855 71.417 20.025 69.975 20.025 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+                <p style="display:inline-block; font-size: x-large; color: #fff; margin-left: 10px; "> July 6 - 8, 2025
+                </p>
+
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <div class="container-fluid">
+                <div class="launch-time">
+                  <div class="bla">
+                    <p id="days">00 </p>
+                    <span>Days</span>
+                  </div>
+                  <div class="bla">
+                    <p id="hours">00 </p>
+                    <span>Hours</span>
+                  </div>
+                  <div class="bla">
+                    <p id="minutes">00 </p>
+                    <span>Minutes</span>
+                  </div>
+                  <div class="bla" style="border-right: none;">
+                    <p id="seconds">00 </p>
+                    <span>Seconds</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 blockcc1">
+              <div class="block2">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="30" height="30" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                    <path
+                      d="M 45 0 C 27.395 0 13.123 14.272 13.123 31.877 c 0 7.86 2.858 15.043 7.573 20.6 L 45 81.101 l 24.304 -28.624 c 4.716 -5.558 7.573 -12.741 7.573 -20.6 C 76.877 14.272 62.605 0 45 0 z M 45 43.889 c -7.24 0 -13.11 -5.869 -13.11 -13.11 c 0 -7.24 5.869 -13.11 13.11 -13.11 s 13.11 5.869 13.11 13.11 C 58.11 38.02 52.24 43.889 45 43.889 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path
+                      d="M 58.958 71.559 L 45 82.839 L 31.057 71.556 c -9.329 1.65 -15.682 4.901 -15.682 8.645 c 0 5.412 13.263 9.8 29.625 9.8 c 16.361 0 29.625 -4.388 29.625 -9.8 C 74.625 76.458 68.278 73.209 58.958 71.559 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+                <a
+                  href="https://www.google.com/maps/dir//Dead+Sea+Rd.,+Sweimeh+11953/@31.7218561,35.5061773,23705m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x150349e632d7042f:0x7938918631564c43!2m2!1d35.5885786!2d31.7218826?hl=en-JO&entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" target="_blank" style="color: #fff;">
+                
+                  <p style="display:inline-block; font-size: x-large; color: #fff; margin-left: 10px; ">HILTON Dead Sea
+                  </p>
+                </a>
+
+
+              </div>
+
+            </div>
+          </div>
+          <br>
+          <br>
+          <a href="tickets.html">
+
+            <div class="btn bay">
+              <h3>
+
+                Get your ticket
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="20" height="20" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(48.582056616858964 8.812559107244184) scale(2.29 2.29)">
+                    <path
+                      d="M 24.25 90 c -0.896 0 -1.792 -0.342 -2.475 -1.025 c -1.367 -1.366 -1.367 -3.583 0 -4.949 L 60.8 45 L 21.775 5.975 c -1.367 -1.367 -1.367 -3.583 0 -4.95 c 1.367 -1.366 3.583 -1.366 4.95 0 l 41.5 41.5 c 1.367 1.366 1.367 3.583 0 4.949 l -41.5 41.5 C 26.042 89.658 25.146 90 24.25 90 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+              </h3>
+            </div>
+          </a>
+        </div>
+
+      </section>
+
+    </section>
+  </header>
+
+  <br>
+  <br><br><br><br>
+  <div class="logo-right">..</div>
+  <div class="logo-left">...</div>
+  <div class="logo-right1">..</div>
+
+
+  <section>
+
+    <div class="block2">
+
+      <h1 class="fora" data-aos="fade-up" style="text-align: center; ">
+        About <span style="color: #BE1E2D; font-family: 'Interceptor', sans-serif;">Med</span><span
+          style="color: #196B40; font-family: 'Interceptor', sans-serif;">Roots<sub>25</sub></span>
+      </h1>
+    </div>
+    <br><br>
+    <div class="fortext" data-aos="zoom-in" >
+
+      <p class="atext" >
+       MedRoots Summit 25 is an International IEEE SIGHT Conference hosted in Jordan for the first time,
+        highlighting the country's growing role in technology, biomedical engineering, and sustainability within the
+        MENA
+        region. The summit, themed "Empowering the Future through Environmental Development, EcoGenomics, AI,
+        Innovation,
+        Medical Fields, and Engineering," fosters global collaboration among experts, researchers, and students to
+        address
+        key challenges. The event features workshops, keynote speeches, a panel discussion, a competition, and
+        exhibitions,
+        showcasing cutting-edge advancements in AI, environmental engineering, and healthcare innovation.
+
+      </p>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <br><br><br>
+  <section id="sponsers" style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+    <br><br>
+    <div class="block">
+
+
+      <div class="container-fluid slidee">
+        <br>
+        <div class="block2">
+          <h1 data-aos="fade-up" class="forp" style="text-align: center; ">Our <span
+              style="color: #BE1E2D;">Partners</span> and<span style="color: #196B40;"> Sponsors</span></h1>
+
+
+        </div>
+        <div class="block2">
+
+          <h3 data-aos="fade-up" class="for"
+            style="text-align: center; font-size: 1.25em; color: #fff; text-shadow: 2px 2px 10px black;">We are grateful
+            to our amazing partners for sponsoring this event.</h3>
+        </div>
+
+        <br><br>
+      </div>
+    </div>
+
+
+    <div class="container-fluid slidee">
+      <div class="row">
+        <div class="col-lg-6 sli2 ">
+          <div class="block">
+
+
+            <div class="container-fluid text-center">
+
+
+              <h1 data-aos="fade-right"
+                style="text-align: center; font-size: 3em; color: #E5E4E2; text-shadow: 2px 2px 10px #E5E4E2; ">
+                Platinum Sponsor</h1>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="block2">
+
+            <div class="Platinum" data-aos="flip-right">
+
+              <img src="pics/ieeesight1.png" width="100%" height="250px" title="IEEE-jordan-section-sight" loading="lazy"> <br><br>
+              <h2 style="color: #ffffff; text-shadow: 2px 2px 10px #000000;">IEEE SIGHT</h2>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="container-fluid slidee">
+      <div class="row">
+        <div class="col-lg-6 dimo">
+          <div class="block2">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="Diamond" data-aos="flip-left">
+
+                    <img src="pics/ieeesight1.png" width="200px" height="200px" loading="lazy"> <br><br>
+                    <h3 style="color: #ffffff; text-shadow: 2px 2px 10px #000000;">IEEE SIGHT</h3>
+                  </div>
+
+                </div>
+                <div class="col-lg-6">
+                  <div class="Diamond" data-aos="flip-right">
+
+                    <img src="pics/ieeesight1.png" width="200px" height="200px" loading="lazy"> <br><br>
+                    <h3 style="color: #ffffff; text-shadow: 2px 2px 10px #000000;">IEEE SIGHT</h3>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 sli1">
+          <div class="block">
+
+
+            <h2 class="text-center"
+              style="text-align: center; font-size: 2.75em; color: #B9F2FF; text-shadow: 2px 2px 10px #B9F2FF;">
+              Diamond Sponsors
+            </h2>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid slidee">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="blockgold">
+
+            <h3 data-aos="fade-right" class="text-center"
+              style="text-align: center; font-size: 2.5em; color: #FFD700; text-shadow: 2px 2px 10px #FFD700;">Gold
+              Sponsors
+            </h3>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 ">
+          <div class="block2">
+
+
+            <div class="container-fluid text-center">
+              <div class="row ">
+                <div class="col-lg-6">
+                  <div class="gold" data-aos="flip-right">
+
+                    <img src="pics/YS-design.webp" width="150px" height="150px" loading="lazy"> <br><br>
+                    <h4 style="color: #ffffff ;text-shadow: 2xp 2px 10px #000000;">Y&S DESIGN</h4>
+                  </div>
+                  <div class="gold" data-aos="flip-right">
+
+                    <img src="pics/ieeesight1.png" width="150px" height="150px" loading="lazy"> <br><br>
+                    <h4 style="color: #ffffff ;text-shadow: 2xp 2px 10px #000000;">IEEE SIGHT</h4>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="gold" data-aos="flip-left">
+
+                    <img src="pics/ieeesight1.png" width="150px" height="150px" loading="lazy"> <br><br>
+                    <h4 style="color: #ffffff ;text-shadow: 2xp 2px 10px #000000;">IEEE SIGHT</h4>
+                  </div>
+                  <div class="gold" data-aos="flip-left">
+
+                    <img src="pics/ieeesight1.png" width="150px" height="150px" loading="lazy"> <br><br>
+                    <h4 style="color: #ffffff ;text-shadow: 2xp 2px 10px #000000;">IEEE SIGHT</h4>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+    <hr style="border: 3px solid #196B40;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <div class="block2">
+
+      <h1 data-aos="fade-up" class="for"
+        style="text-align: center; font-size: 2.5em; color: #fff; text-shadow: 2px 2px 10px #fff">Success Partners
+      </h1>
+    </div>
+
+
+    <br><br>
+    <div class="block">
+
+      <section id="sponsers" class="slider-full">
+
+        <div class="slider1">
+
+
+
+          <div class="slide-trak">
+            <img src="pics/YS-design.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/ieeesight1.png" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/linkedin.webp" loading="lazy">
+            <img src="pics/YS-design.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/ieeesight1.png" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/linkedin.webp" loading="lazy">
+          </div>
+          <div class="slide-trak">
+            <img src="pics/YS-design.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/ieeesight1.png" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/linkedin.webp" loading="lazy">
+            <img src="pics/YS-design.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/ieeesight1.png" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/linkedin.webp" loading="lazy">
+          </div>
+          <br><br>
+
+
+          <div class="slide-trak1">
+            <img src="pics/YS-design.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/ieeesight1.png" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/linkedin.webp" loading="lazy">
+            <img src="pics/YS-design.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/ieeesight1.png" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/linkedin.webp" loading="lazy">
+          </div>
+          <div class="slide-trak1">
+            <img src="pics/YS-design.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/ieeesight1.png" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/linkedin.webp" loading="lazy">
+            <img src="pics/YS-design.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/ieeesight1.png" loading="lazy">
+            <img src="pics/logo-w.webp" loading="lazy">
+            <img src="pics/linkedin.webp" loading="lazy">
+          </div>
+          <br><br>
+        </div>
+
+
+
+      </section>
+    </div>
+    <br><br>
+  </section>
+
+
+  <br><br><br>
+
+
+
+
+
+
+  <section class="ezy__faq4 dark">
+    <div class="container">
+      <div class="row justify-content-center mb-md-4">
+        <div class="col-lg-12 col-xl-12 text-center for">
+          <h2 class="ezy__faq4-heading mb-3">Frequently Asked Questions</h2>
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="ezy__faq4-item mt-4">
+            <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq4-btn-collapse"
+              data-bs-toggle="collapse" href="#ezy-faq4-collapse-1" role="button" aria-expanded="fales"
+              aria-controls="ezy-faq4-collapse-1">
+              <span>When is the summit ?</span>
+              <span class="fas fa-chevron-down">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="20" height="20" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                    <path
+                      d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+              </span>
+            </a>
+            <div class="collapse" id="ezy-faq4-collapse-1">
+              <div class="ezy__faq4-content p-3 p-lg-4">
+                <p class="opacity-50 mb-0">
+                  From the 6th of July till the 8th of July 2025.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="ezy__faq4-item mt-4">
+            <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq4-btn-collapse"
+              data-bs-toggle="collapse" href="#ezy-faq4-collapse-2" role="button" aria-expanded="false"
+              aria-controls="ezy-faq4-collapse-2">
+              <span>Where will the summit be held?</span>
+              <span class="fas fa-chevron-down">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="20" height="20" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                    <path
+                      d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+              </span> </a>
+            <div class="collapse" id="ezy-faq4-collapse-2">
+              <div class="ezy__faq4-content p-3 p-lg-4">
+                <p class="opacity-50 mb-0">
+                  The MedRoots 25 summit will be held at the Conference Palace ( King Hussein Bin Talal Convention
+                  Centre (KHBTCC)) at the Hilton Dead Sea Hotel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="ezy__faq4-item mt-4">
+            <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq4-btn-collapse"
+              data-bs-toggle="collapse" href="#ezy-faq4-collapse-3" role="button" aria-expanded="false"
+              aria-controls="ezy-faq4-collapse-3">
+              <span>Is there a certificate of attendance?</span>
+              <span class="fas fa-chevron-down">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="20" height="20" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                    <path
+                      d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+              </span> </a>
+            <div class="collapse" id="ezy-faq4-collapse-3">
+              <div class="ezy__faq4-content p-3 p-lg-4">
+                <p class="opacity-50 mb-0">
+                  Yes, there is a certificate of attendance at the summit that will be sent to all attendees via
+                  their personal email that they used in the form to purchase tickets.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="ezy__faq4-item mt-4">
+            <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq4-btn-collapse"
+              data-bs-toggle="collapse" href="#ezy-faq4-collapse-5" role="button" aria-expanded="false"
+              aria-controls="ezy-faq4-collapse-5">
+              <span>Does the ticket include a hotel room?</span>
+              <span class="fas fa-chevron-down">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="20" height="20" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                    <path
+                      d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+              </span> </a>
+            <div class="collapse" id="ezy-faq4-collapse-5">
+              <div class="ezy__faq4-content p-3 p-lg-4">
+                <p class="opacity-50 mb-0">
+                  No, rooms are booked independently, with a special rate for attendees.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ezy__faq4-item mt-4">
+            <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq4-btn-collapse"
+              data-bs-toggle="collapse" href="#ezy-faq4-collapse-6" role="button" aria-expanded="false"
+              aria-controls="ezy-faq4-collapse-6">
+              <span>Can I cancel the ticket after completing the purchase ?</span>
+              <span class="fas fa-chevron-down">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="20" height="20" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                    <path
+                      d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+              </span> </a>
+            <div class="collapse" id="ezy-faq4-collapse-6">
+              <div class="ezy__faq4-content p-3 p-lg-4">
+                <p class="opacity-50 mb-0">
+                  Unfortunately, tickets are non-refundable as stated in the terms and conditions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="ezy__faq4-item mt-4">
+            <a class="btn p-3 p-lg-4 w-100 text-start d-flex justify-content-between align-items-center ezy__faq4-btn-collapse"
+              data-bs-toggle="collapse" href="#ezy-faq4-collapse-7" role="button" aria-expanded="false"
+              aria-controls="ezy-faq4-collapse-7">
+              <span>Is there transportation to and from the venue?</span>
+              <span class="fas fa-chevron-down">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  width="20" height="20" viewBox="0 0 256 256" xml:space="preserve">
+
+                  <defs>
+                  </defs>
+                  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                    <path
+                      d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z"
+                      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  </g>
+                </svg>
+              </span> </a>
+            <div class="collapse" id="ezy-faq4-collapse-7">
+              <div class="ezy__faq4-content p-3 p-lg-4">
+                <p class="opacity-50 mb-0">
+                  Yes, there will be many stations in Amman, Zarqa and Irbid, and they are free for ticket holders.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <br><br>
+
+
+  <footer class="background-color text-white py-3" style="    background: linear-gradient(48deg, #000000, #BE1E2D);
+    box-shadow: 2px 2px 10px black;" id="contact">
+    <div class="container-fluid" style="padding-bottom: 0; margin: 0px 0px 0px 0px;">
+      <div class="row">
+        <div class="col-lg-6">
+          <p style="font-size: x-large;">Contact us :</p>
+          <br>
+          <p style="font-size: large; "> Email :<a href="mailto:medroots25@gmail.com"
+              style="text-decoration: none;">medroots25@gmail.com</a><br></p>
+
+        </div>
+        <div class="col-lg-6">
+
+          <p style="font-size: x-large;">Follow Us</p> <br>
+          <a href="https://www.instagram.com/medroots25?igsh=YmtwZWZhc3c0bjQ=" target="_blank"><img src="pics/instagram.webp"
+              width="40" loading="lazy"></a>
+
+          <a href="https://web.facebook.com/people/MedRoots-Summit-2025/61572288527534/?mibextid=wwXIfr&rdid=CBMJu7QqZa2NyEvm&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F15JdjNpTb8%2F%3Fmibextid%3DwwXIfr%26_rdc%3D1%26_rdr"
+            target="_blank"><img src="pics/facebook (1).webp" width="40" loading="lazy"></a>
+
+          <a href="https://www.linkedin.com/company/medroots-summit-2025/" target="_blank">
+            <img src="pics/linkedin.webp" width="40" loading="lazy"></a>
+          <a href="https://x.com/MedRoots25" target="_blank"><img src="pics/x-icon.webp" loading="lazy" width="35"></a>
+        </div>
+      </div>
+      <hr>
+      <p style="text-align: center; margin-top: 10px; margin-bottom: -10px;">&copy; 2025 MedRoots 25 summit. All
+        rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      AOS.init({
+        duration: 500,  // مدة الحركة بالمللي ثانية
+        once: true,      // هل يتم تشغيل الحركة مرة واحدة فقط؟
+        easing: "ease-in-out", // نوع التسهيل في الحركة
+      });
+    });
+  </script>
+</body>
+
+</html>
